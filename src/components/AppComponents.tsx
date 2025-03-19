@@ -1,4 +1,3 @@
-import { ReactNode } from "react"
 import { SafeAreaView, View } from "react-native"
 import { ReactProps } from "../interfaces/ReactProps"
 
