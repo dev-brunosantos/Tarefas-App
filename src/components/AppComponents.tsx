@@ -31,3 +31,5 @@ const Container = ({ children }: ReactProps) => {
         </View>
     )
 }
+
+export { Tela, Container }
