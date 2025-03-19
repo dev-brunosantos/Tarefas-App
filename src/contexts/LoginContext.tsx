@@ -1,5 +1,6 @@
 import { createContext, ReactNode, useState } from "react";
 import { Alert } from "react-native";
+import { ReactProps } from "../interfaces/ReactProps";
 
 interface UsuarioLogin {
     email: string;
@@ -10,10 +11,6 @@ interface LoginProps {
     usuario: UsuarioLogin;
     erro: boolean;
     login: (e: string, s: string) => void;
-}
-
-interface ReactProps {
-    children: ReactNode;
 }
 
 const LoginContext = createContext<LoginProps | undefined>(undefined);
