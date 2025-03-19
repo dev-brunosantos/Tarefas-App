@@ -1,9 +1,6 @@
 import { ReactNode } from "react"
 import { SafeAreaView, View } from "react-native"
-
-interface ReactProps {
-    children: ReactNode;
-}
+import { ReactProps } from "../interfaces/ReactProps"
 
 const Tela = ({ children }: ReactProps) => {
     return (
