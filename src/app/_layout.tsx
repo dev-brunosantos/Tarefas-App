@@ -6,6 +6,8 @@ export default function AppLayout() {
         <AppContextProvider>
             <Stack>
                 <Stack.Screen name='index' />
+                <Stack.Screen name='./Login' />
+                <Stack.Screen name='./NovoUsuario' />
             </Stack>
         </AppContextProvider>
     )
